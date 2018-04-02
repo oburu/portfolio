@@ -5,7 +5,7 @@ export const devData = [
       imgTop: 'images/developments/raildiary/raildiary-top.png',
       imgBig: 'images/developments/raildiary/raildiary-big.png',
       bkgColor: '#ec5c60',
-      description: 'Part of the team of developers for Webapp platform and iPad app for rail workers made in React, React-native, Redux and MobX.',
+      description: 'Part of the team of developers working on the Raildiary App, a data gathering and analysis app for railway construction workers. Made in React, React-native, Redux and MobX.',
       title: 'RailDiary Platform'
     },
     {
@@ -14,25 +14,25 @@ export const devData = [
       imgTop: 'images/developments/ecolab/ecolab-top.png',
       imgBig: 'images/developments/ecolab/ecolab-big.png',
       bkgColor: '#57b7ce',
-      description: 'Developemnt of iPad app for Ecolab products survey, made in React-native, mobx.',
+      description: 'Development of iPad app for Ecolab products survey, made in React-native and MobX.',
       title: 'Ecolab App'
     },
     {
-      tech: 'REACT',
+      tech: 'REACT, WEBPACK, SASS',
       imgSmall: 'images/developments/sisu/sisu-thumb.jpg',
       imgTop: 'images/developments/sisu/sisu-top.png',
       imgBig: 'images/developments/sisu/sisu-big.png',
       bkgColor: '#60c1bc',
-      description: 'Development of front-end Webapp to display pdf phicology studies for sisupsychology.co.uk. Made in React.',
+      description: 'Development of Webapp that displays a pdf based on a typeform questionnaire used by SISU psychology. Made in React.',
       title: 'SISU'
     },
     {
-      tech: 'REACT',
+      tech: 'REACT, WEBPACK, SASS',
       imgSmall: 'images/developments/ciroc/ciroc-thumb.jpg',
       imgTop: 'images/developments/ciroc/ciroc-top.png',
       imgBig: 'images/developments/ciroc/ciroc-big.png',
       bkgColor: '#373aae',
-      description: 'Development of front-end promotinal game for Ciroc campaing, christmas 2017. Made in React.',
+      description: 'Development of promotional game for Ciroc 2017 Christmas campaign. Made in React.',
       title: 'CIROC'
     },
     {
@@ -55,7 +55,7 @@ export const devData = [
       imgTop: 'images/developments/skinnyflakk/skinnyflakk-top.png',
       imgBig: 'images/developments/skinnyflakk/skinnyflakk-big.png',
       bkgColor: '#c77721',
-      description: 'Website and store made with Wordpress and Woocomerce for spanish rapper Rels b.',
+      description: 'Website and e-store made with Wordpress and WooCommerce for Spanish rapper Rels b.',
       tech: 'wordpress, woocomerce'
     },
     {

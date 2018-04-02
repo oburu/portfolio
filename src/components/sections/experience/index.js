@@ -5,8 +5,8 @@ import ExpFooter from './exp-footer';
 const EXPERIENCE_LIST = [
   {
     date: '07/2017 - Current',
-    title: 'Front-End Developer at Gather digital. Manchester, UK',
-    description: 'Development of several web/native apps and platform for RailDiary, Ecolab, Sisuphycology in React, React native, MobX and Redux.',
+    title: 'Front-End Developer at Gather Digital. Manchester, UK',
+    description: 'Development of several web/native apps and platform for RailDiary, Ecolab, Sisupsychology in React, React native, MobX and Redux, mainly',
   },
   {
     date: '01/2017 - 07/2017',
