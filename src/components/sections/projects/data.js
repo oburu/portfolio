@@ -18,13 +18,22 @@ export const devData = [
       title: 'Ecolab App'
     },
     {
-      tech: 'REACT, SASS',
+      tech: 'REACT',
       imgSmall: 'images/developments/sisu/sisu-thumb.jpg',
       imgTop: 'images/developments/sisu/sisu-top.png',
       imgBig: 'images/developments/sisu/sisu-big.png',
       bkgColor: '#60c1bc',
       description: 'Development of front-end Webapp to display pdf phicology studies for sisupsychology.co.uk. Made in React.',
       title: 'SISU'
+    },
+    {
+      tech: 'REACT',
+      imgSmall: 'images/developments/ciroc/ciroc-thumb.jpg',
+      imgTop: 'images/developments/ciroc/ciroc-top.png',
+      imgBig: 'images/developments/ciroc/ciroc-big.png',
+      bkgColor: '#000000',
+      description: 'Development of front-end promotinal game for Ciroc campaing, christmas 2017. Made in React.',
+      title: 'CIROC'
     },
     {
       title: 'marvel memo',
@@ -84,13 +93,14 @@ export const devData = [
       liveLink: 'https://oburu.github.io/oburu-world/',
       tech: 'HTML5, CANVAS, box2d.js'
     },
+    /*
     {
       title: 'todo app',
       imgSmall: 'images/developments/todo-app.jpg',
       gitLink: 'https://github.com/oburu/ReactTodo',
       liveLink: 'http://reactotodo.herokuapp.com/',
       tech: 'REACT, REDUX, MOCHA, SASS'
-    },
+    },*/
     {
       title: 'maze rat',
       imgSmall: 'images/developments/maze-rat.jpg',
