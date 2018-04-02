@@ -22,7 +22,7 @@ export const devData = [
       imgSmall: 'images/developments/sisu/sisu-thumb.jpg',
       imgTop: 'images/developments/sisu/sisu-top.png',
       imgBig: 'images/developments/sisu/sisu-big.png',
-      bkgColor: '#0b3c5f',
+      bkgColor: '#60c1bc',
       description: 'Development of front-end Webapp to display pdf phicology studies for sisupsychology.co.uk. Made in React.',
       title: 'SISU'
     },

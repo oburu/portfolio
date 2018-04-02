@@ -33,8 +33,8 @@ class TopNav extends Component {
       <div className={topmenuClasses}>
         <AnchorLink href="#topPage" className="menu-name sliding-url">Augusto Solorzano</AnchorLink>
         <ul>
-          <li><AnchorLink className="sliding-url" href="#projects">Projects</AnchorLink></li>
-          <li><AnchorLink className="sliding-url" href="#experience">Experience</AnchorLink></li>
+          <li><AnchorLink offset='45'className="sliding-url" href="#projects">Projects</AnchorLink></li>
+          <li><AnchorLink offset='45' className="sliding-url" href="#experience">Experience</AnchorLink></li>
           <li><AnchorLink className="sliding-url" href="#contact">Contact</AnchorLink></li>
         </ul>
         <div 
