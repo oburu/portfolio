@@ -13,7 +13,7 @@ export const devData = [
       imgSmall: 'images/developments/ecolab/ecolab-thumb.jpg',
       imgTop: 'images/developments/ecolab/ecolab-top.png',
       imgBig: 'images/developments/ecolab/ecolab-big.png',
-      bkgColor: '#007ac9',
+      bkgColor: '#57b7ce',
       description: 'Developemnt of iPad app for Ecolab products survey, made in React-native, mobx.',
       title: 'Ecolab App'
     },
@@ -31,7 +31,7 @@ export const devData = [
       imgSmall: 'images/developments/ciroc/ciroc-thumb.jpg',
       imgTop: 'images/developments/ciroc/ciroc-top.png',
       imgBig: 'images/developments/ciroc/ciroc-big.png',
-      bkgColor: '#000000',
+      bkgColor: '#373aae',
       description: 'Development of front-end promotinal game for Ciroc campaing, christmas 2017. Made in React.',
       title: 'CIROC'
     },
@@ -54,7 +54,7 @@ export const devData = [
       imgSmall: 'images/developments/skinnyflakk/skinnyflakk.jpg',
       imgTop: 'images/developments/skinnyflakk/skinnyflakk-top.png',
       imgBig: 'images/developments/skinnyflakk/skinnyflakk-big.png',
-      bkgColor: '#292929',
+      bkgColor: '#c77721',
       description: 'Website and store made with Wordpress and Woocomerce for spanish rapper Rels b.',
       tech: 'wordpress, woocomerce'
     },
