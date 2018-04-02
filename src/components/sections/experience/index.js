@@ -14,17 +14,17 @@ const EXPERIENCE_LIST = [
     description: 'Web design and development in Sketch, HTML5, CSS3, React.js and wordpress for skinnyflakk.com, knnect.com, etc',
   },
   {
-    date: '2012 - 10/2016',
+    date: '11/2012 - 10/2016',
     title: 'Front-End Designer/ Developer, iVendi Limited. Manchester, UK',
     description: 'Designer of all UI and UX interfaces, applications and assets in Adobe CS, HTML5, CSS3, Angular and React',
   },
   {
-    date: '2010 - 2012',
+    date: '10/2010 - 03/2012',
     title: 'Web Designer & Front-End Developer, EkoPlc. Mallorca, Spain',
     description: 'Designer and developer of several web applications, banners, brochures and posters',
   },
   {
-    date: '2008 - 2010',
+    date: '06/2008 - 10/2010',
     title: 'Web Designer & Front-End Developer, Bankoi. Vigo, Spain',
     description: 'Responsible for the design, maintenance and development of several web sites. Instrumental in creating ATLAS, a lightweight php framework for the development of customized web pages',
   },

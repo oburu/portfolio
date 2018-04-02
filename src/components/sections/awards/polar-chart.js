@@ -13,7 +13,7 @@ const CHART_DATA = {
       pointBackgroundColor: 'white',
       pointBorderWidth:1,
       pointHoverBorderWidth:1,
-      data: [8.5, 9.5, 8, 9.5, 6.5, 7.5]
+      data: [8.5, 9.5, 8, 9.5, 7, 7.5]
     }
   ]
 };

@@ -9,4 +9,4 @@ class Title extends Component {
     </div>
   }
 }
-export default reveal(Title, {delay: 500});
+export default reveal(Title, {delay: 300});

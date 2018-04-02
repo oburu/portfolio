@@ -1,12 +1,30 @@
 export const devData = [
     {
-      tech: 'UI/UX Designs, Adobe CS 2012-2015',
-      imgSmall: 'images/designs/ivendi-platform/ivendi-platform-thumb.jpg',
-      imgTop: 'images/designs/ivendi-platform/ivendi-platform-top.png',
-      imgBig: 'images/designs/ivendi-platform/ivendi-platform-big.png',
-      bkgColor: '#616360',
-      description: 'Designer of all UI and UX interfaces for the 2015 awards winning iVendi platform in HTML5, CSS3 and Adobe CS predominantly.',
-      title: 'iVendi Platform'
+      tech: 'REACT, REACT-NATIVE, REDUX, MOBX',
+      imgSmall: 'images/developments/raildiary/raildiary-thumb.jpg',
+      imgTop: 'images/developments/raildiary/raildiary-top.png',
+      imgBig: 'images/developments/raildiary/raildiary-big.png',
+      bkgColor: '#ec5c60',
+      description: 'Part of the team of developers for Webapp platform and iPad app for rail workers made in React, React-native, Redux and MobX.',
+      title: 'RailDiary Platform'
+    },
+    {
+      tech: 'REACT-NATIVE, MOBX',
+      imgSmall: 'images/developments/ecolab/ecolab-thumb.jpg',
+      imgTop: 'images/developments/ecolab/ecolab-top.png',
+      imgBig: 'images/developments/ecolab/ecolab-big.png',
+      bkgColor: '#007ac9',
+      description: 'Developemnt of iPad app for Ecolab products survey, made in React-native, mobx.',
+      title: 'Ecolab App'
+    },
+    {
+      tech: 'REACT, SASS',
+      imgSmall: 'images/developments/sisu/sisu-thumb.jpg',
+      imgTop: 'images/developments/sisu/sisu-top.png',
+      imgBig: 'images/developments/sisu/sisu-big.png',
+      bkgColor: '#0b3c5f',
+      description: 'Development of front-end Webapp to display pdf phicology studies for sisupsychology.co.uk. Made in React.',
+      title: 'SISU'
     },
     {
       title: 'marvel memo',
@@ -24,9 +42,11 @@ export const devData = [
     },
     {
       title: 'skinnyflakk.com',
-      imgSmall: 'images/developments/skinnyflakk.jpg',
-      gitLink: undefined,
-      liveLink: 'http://www.skinnyflakk.com/',
+      imgSmall: 'images/developments/skinnyflakk/skinnyflakk.jpg',
+      imgTop: 'images/developments/skinnyflakk/skinnyflakk-top.png',
+      imgBig: 'images/developments/skinnyflakk/skinnyflakk-big.png',
+      bkgColor: '#292929',
+      description: 'Website and store made with Wordpress and Woocomerce for spanish rapper Rels b.',
       tech: 'wordpress, woocomerce'
     },
     {
@@ -147,6 +167,7 @@ export const devData = [
     description: 'Grupo CK is a company dedicated to the rental, sale and installation of mobile structures in northwestern Spain. The website was built in CakePHP.',
     title: 'Grupo CK'
   },
+  /*
   {
     tech: 'Illustration, project design 2010',
     imgSmall: 'images/designs/bankoi/bankoi-thumb.jpg',
@@ -155,7 +176,7 @@ export const devData = [
     bkgColor: '#3785e2',
     description: 'Redesign project for Bankoi S.L., a company that offers hosting and web hosting, dedicated or virtual servers.',
     title: 'Bankoi S.L.'
-  },
+  },*/
   {
     tech: 'Illustration, poster design 2010',
     imgSmall: 'images/designs/ekolum/ekolum-thumb.jpg',

@@ -23,9 +23,7 @@ const OWL_OPTIONS = {
 class Projects extends Component {
   
   handleThumbClick = (item) => {
-    const { handleSelectedData } = this.props;
-    
-    handleSelectedData(item);
+    this.props.handleSelectedData(item);
   }
   
   renderCarrousel = (type) => {
@@ -57,18 +55,12 @@ class Projects extends Component {
         <div className="development-section">
           <div className="central-panel">
             <h2>Development</h2>
-            <h3>react, react-native, redux, mobx, node,  webpack, sass, FP, P5.js, wordpress, bootstrap, foundation</h3>
+            <h3>react, react-native, redux, mobx, node, webpack, sass, P5.js, bootstrap, foundation</h3>
           </div>
           <OwlCarousel 
           	className="owl-carousel"
             {...OWL_OPTIONS}>
-            {devData.map((item, i) => (
-              <CarouselItem 
-                key={i} 
-                data={item} 
-                handleThumbClick={this.handleThumbClick} 
-              />
-            ))}
+            {this.renderCarrousel('dev')}
           </OwlCarousel>
         </div>
         <div className="design-section">

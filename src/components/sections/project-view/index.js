@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
 class ProjectView extends Component {
+  
+  // scroll this component to his top, for every new view
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.open){
+      const myView = ReactDOM.findDOMNode(this.myView);
+      myView.scrollTo(0, myView.offsetTop);
+    }
+  }
   
   render() {
     const { open, toggleViewOpen, data } = this.props;
@@ -10,7 +19,7 @@ class ProjectView extends Component {
       : "modal-wrapper";
       
     return (
-      <div className={wrapperClasses}>
+      <div className={wrapperClasses} ref={(d) => this.myView = d}>
         <div className="modal-header">
           <div className="close-modal" onClick={toggleViewOpen}>
             <span className="close" />
