@@ -186,7 +186,8 @@ p {
     color: #201F1F;
   }
   .modal-wrapper .work-img-title {
-    position: relative; }
+    position: relative;
+    min-height: 500px}
   .modal-wrapper .title {
     position: absolute;
     top: 10px;
@@ -204,6 +205,9 @@ p {
     margin: 0 auto;
     display: block;
     padding: 7% 0; }
+    .modal-light-section{
+      min-height: 300px; }
+    
   .modal-wrapper .work-description {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.6);

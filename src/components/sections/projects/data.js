@@ -5,7 +5,7 @@ export const devData = [
       imgTop: 'images/developments/raildiary/raildiary-top.png',
       imgBig: 'images/developments/raildiary/raildiary-big.png',
       bkgColor: '#ec5c60',
-      description: 'Part of the team of developers working on the Raildiary App, a data gathering and analysis app for railway construction workers. Made in React, React-native, Redux and MobX.',
+      description: 'Part of the team of developers working on the Raildiary App, a data gathering and analysis app for railway construction workers. Made in React, React Native, Redux and MobX.',
       title: 'RailDiary Platform'
     },
     {
@@ -14,7 +14,7 @@ export const devData = [
       imgTop: 'images/developments/ecolab/ecolab-top.png',
       imgBig: 'images/developments/ecolab/ecolab-big.png',
       bkgColor: '#57b7ce',
-      description: 'Development of iPad app for Ecolab products survey, made in React-native and MobX.',
+      description: 'Development of iPad app for Ecolab products survey, made in React Native and MobX.',
       title: 'Ecolab App'
     },
     {

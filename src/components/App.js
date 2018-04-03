@@ -29,10 +29,16 @@ class App extends Component {
   }
   
   toggleViewOpen = () => {
-    if (document.body.classList.contains('no-scroll')){
+    if (document.body.classList.contains('no-scroll')) {
       document.body.classList.remove('no-scroll');
     } else {
       document.body.className += "no-scroll";
+    }
+    
+    if (this.state.selectedData) {
+      setTimeout(() => this.setState({
+        selectedData: void 0
+      }), 400);
     }
     
     this.setState({
@@ -64,7 +70,7 @@ class App extends Component {
     const bodyWrapperClasses = projectViewOpen 
       ? 'body-wrapper scale-body-wrapper' 
       : 'body-wrapper';
-    
+      
     return (
       <Fragment>
         <Preloader ready={loaded} />
