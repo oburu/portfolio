@@ -4,38 +4,43 @@ import ExpFooter from './exp-footer';
 
 const EXPERIENCE_LIST = [
   {
-    date: '07/2017 - Current',
-    title: 'Front-End Developer at Gather Digital. Manchester, UK',
-    description: 'Development of several web/native apps and platform for RailDiary, Ecolab, Sisupsychology in React, React native, MobX and Redux, mainly',
+    date: '08/2018 - PRESENT',
+    title: 'Software engineer at iVendi Ltd. Manchester, UK',
+    description: 'Development of the juhu.auto platform and web apps mainly in React with custom hooks, Next.js, MobX, Redux, TypeScript.',
+  },
+  {
+    date: '07/2017 - 07/2018',
+    title: 'Frontend developer at Gather Digital. Manchester, UK',
+    description: 'Development of several web/native apps and platform for RailDiary, Ecolab, Sisupsychology in React, React native, MobX and Redux',
   },
   {
     date: '01/2017 - 07/2017',
-    title: 'Freelance Designer & Front-End Developer. Manchester, UK',
-    description: 'Web design and development in Sketch, HTML5, CSS3, React.js and wordpress for skinnyflakk.com, knnect.com, etc',
+    title: 'Freelance frontend developer. Manchester, UK',
+    description: 'Web design and development in Sketch, HTML5, CSS3, React and wordpress for skinnyflakk.com and knnect.com',
   },
   {
     date: '11/2012 - 10/2016',
-    title: 'Front-End Designer/ Developer, iVendi Limited. Manchester, UK',
+    title: 'Frontend designer, iVendi Ltd. Manchester, UK',
     description: 'Designer of all UI and UX interfaces, applications and assets in Adobe CS, HTML5, CSS3, Angular and React',
   },
   {
     date: '10/2010 - 03/2012',
-    title: 'Web Designer & Front-End Developer, EkoPlc. Mallorca, Spain',
+    title: 'Web designer, EkoPlc. Mallorca, Spain',
     description: 'Designer and developer of several web applications, banners, brochures and posters',
   },
   {
     date: '06/2008 - 10/2010',
-    title: 'Web Designer & Front-End Developer, Bankoi. Vigo, Spain',
+    title: 'Web designer, Bankoi. Vigo / Mallorca, Spain',
     description: 'Responsible for the design, maintenance and development of several web sites. Instrumental in creating ATLAS, a lightweight php framework for the development of customized web pages',
   },
   {
     date: '2007',
-    title: 'Game Design Course in Flash and ActionScript. Ourense, Spain',
+    title: 'Game design course in Flash and ActionScript. Ourense, Spain',
     description: 'Confederación Empresarial de Ourense',
   },
   {
-    date: '2006',
-    title: 'Software System Technical Engineer. Ourense, Spain',
+    date: '10/2004 - 05/2006',
+    title: 'Computer science technical degree. Ourense, Spain',
     description: 'IES A Carballeira',
   },
 ];

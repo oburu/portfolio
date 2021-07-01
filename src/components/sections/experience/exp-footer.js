@@ -4,7 +4,7 @@ import reveal from '../../utils/reveal';
 class ExpFooter extends Component {
   render () {
     return <div className="experience-section-footer">
-      <h3>Have a project for me?</h3>
+      <h3>Wish to Contact me?</h3>
       <div className="vertical-line" />
     </div>
   }

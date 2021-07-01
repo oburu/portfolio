@@ -3,7 +3,7 @@ import reveal from '../../utils/reveal';
 import { Radar } from 'react-chartjs-2';
 
 const CHART_DATA = {
-  labels: ["JS/ES6", "CSS3/SASS", "UX","UI", "REDUX/MOBX", "REACT"],
+  labels: ["JS/ES5/ES6+", "CSS/SASS/JSS", "TypeScript","UX/UI", "REDUX/MOBX", "REACT"],
   datasets: [
     {
       backgroundColor: 'rgba(254, 230, 76, 0.7)',
@@ -13,7 +13,7 @@ const CHART_DATA = {
       pointBackgroundColor: 'white',
       pointBorderWidth:1,
       pointHoverBorderWidth:1,
-      data: [8.5, 9.5, 8, 9.5, 7, 7.5]
+      data: [9, 9.5, 6.5, 8, 9, 9.5]
     }
   ]
 };

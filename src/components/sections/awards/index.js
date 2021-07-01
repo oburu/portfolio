@@ -3,25 +3,21 @@ import PolarChart from './polar-chart';
 
 const AWARD_LIST = [
   {
-    year: '2015',
     title: 'Winner of the Motor Trader’s Dealer Product of the Year Award',
     company: 'iVendi ltd',
     role: 'Head Designer',
   },
   {
-    year: '2015',
     title: 'Winner of the International Auto Finance Awards Best product or service innovation',
     company: 'iVendi ltd',
     role: 'Designer',
   },
   {
-    year: '2015',
     title: 'Winner of the IAF Awards Runner-up in Motor Finance Point of Sale',
     company: 'iVendi ltd',
     role: 'Designer',
   },
   {
-    year: '2014',
     title: 'Finalist of the Motor Trader’s Industry Award',
     company: 'iVendi ltd',
     role: 'Designer',
@@ -33,7 +29,6 @@ class Splash extends Component {
   renderAwardList = () => {
     return AWARD_LIST.map((award, i) => (
       <li key={i}>
-        <p className="indeted-paragraph dark">{award.year}</p>
         <p className="bold-paragraph">{award.title}</p>
         <p className="indeted-paragraph">
           Company: {award.company}<br />
@@ -55,6 +50,18 @@ class Splash extends Component {
           </div>
           <div className="sections awards-wrapper">
             <h3>Awards</h3>
+            <p className="indeted-paragraph dark">2020</p>
+            <ul className="lists">
+            <li>
+              <p className="bold-paragraph">Innovation Award and The Best Service for Dealers Awards at the Car Finance Awards
+              </p>
+              <p className="indeted-paragraph">
+                Company: iVendi ltd<br />
+                Role: Software Engineer 
+              </p>
+            </li>
+            </ul>
+            <p className="indeted-paragraph dark">2015</p>
             <ul className="lists">
               {this.renderAwardList()}
             </ul>
