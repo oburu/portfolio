@@ -547,7 +547,7 @@ p {
 }
 .awards-section .skills-chart {
   display: inline-block;
-  width: 50%;
+  width: 60%;
 }
 .awards-section .polar-chart {
   max-height: 500px;
@@ -556,8 +556,7 @@ p {
 }
 .awards-section .awards-wrapper {
   float: right;
-  width: 40%;
-  margin-left: 10%;
+  width: 35%;
 }
 .awards-section:after {
   content: "";
