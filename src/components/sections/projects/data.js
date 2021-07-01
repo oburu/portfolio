@@ -1,5 +1,12 @@
 export const devData = [
     {
+      title: 'juhu.auto',
+      imgSmall: 'images/developments/juhu-auto.jpg',
+      gitLink: undefined,
+      liveLink: 'https://www.juhu.auto/',
+      tech: 'REACT, NEXT.JS, JSS, TypeScript, Mobx, Redux'
+    },
+    {
       tech: 'REACT, REACT-NATIVE, REDUX, MOBX',
       imgSmall: 'images/developments/raildiary/raildiary-thumb.jpg',
       imgTop: 'images/developments/raildiary/raildiary-top.png',
