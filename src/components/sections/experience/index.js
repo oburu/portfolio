@@ -6,7 +6,7 @@ const EXPERIENCE_LIST = [
   {
     date: '08/2018 - PRESENT',
     title: 'Software engineer at iVendi Ltd. Manchester, UK',
-    description: 'Development of the juhu.auto platform and web apps mainly in React with custom hooks, Next.js, MobX, Redux, TypeScript.',
+    description: 'Development of the juhu.auto platform and web apps mainly in React with custom hooks, Next.js, MobX, Redux, TypeScript, JSS, Storybook, styled components,',
   },
   {
     date: '07/2017 - 07/2018',
