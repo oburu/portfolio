@@ -56,7 +56,7 @@ class Projects extends Component {
         <div className="development-section">
           <div className="central-panel">
             <h2>Development</h2>
-            <h3>react, next.js, react-native, redux, mobx, node, webpack, storybook, styled-components, sass, jss, P5.js, bootstrap</h3>
+            <h3>react, next.js, react-native, redux, mobx, node, webpack, storybook, styled components, sass, jss, P5.js, Typescript</h3>
           </div>
           <OwlCarousel 
           	className="owl-carousel"
