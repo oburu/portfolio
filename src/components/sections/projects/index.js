@@ -50,12 +50,13 @@ class Projects extends Component {
     OwlCarousel.propTypes = {
       navClass: PropTypes.arrayOf(PropTypes.string)
     }
+
     return (
       <div className="projects-section" id="projects">
         <div className="development-section">
           <div className="central-panel">
             <h2>Development</h2>
-            <h3>react, next.js, react-native, redux, mobx, node, webpack, sass, jss, P5.js, bootstrap, foundation</h3>
+            <h3>react, next.js, react-native, redux, mobx, node, webpack, storybook, styled-components, sass, jss, P5.js, bootstrap</h3>
           </div>
           <OwlCarousel 
           	className="owl-carousel"
