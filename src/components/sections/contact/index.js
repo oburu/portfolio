@@ -8,13 +8,13 @@ class Contact extends Component {
         <a href="mailto:jaugustost@gmail.com" className="sliding-url">jaugustost@gmail.com</a>
         <div className="social-media" id="socialMedia">
           <ul>
-            <li>
+            {/*<li>
               <a href="https://twitter.com/oburusolo" 
                 target="_blank" 
                 rel="noopener noreferrer">
                 <span className="twitter social-icons" />
               </a>
-            </li>
+            </li>*/}
             <li>
               <a href="https://github.com/oburu" 
                 target="_blank" 
